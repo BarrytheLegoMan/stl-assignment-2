@@ -1,0 +1,21 @@
+# Python cache files
+__pycach__/
+*.pyc
+
+# Python virtual environmnets
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+
+# Editor-specific settings
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+Desktop.ini
