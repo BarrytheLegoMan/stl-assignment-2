@@ -1,5 +1,6 @@
 #task1enhanced
 # Use lists, dictionaries and functions to enhance the Python file
+from tkinter import BooleanVar
 
 appointments = []
 
@@ -23,4 +24,5 @@ def display_appointments():
 print("Welcome to SmartCare: The Clinical Appointment Booking System!")
 book_appointment('Alice Smith', 'Dr. John Doe', '2024-07-20 10:00 AM')
 book_appointment('Bob Johnson', 'Dr. Jane Roe', '2024-07-20 11:30 AM')
+
 display_appointments()
